@@ -27,6 +27,17 @@ The framework enforces a systematic 6-step Trust and Safety operational lifecycl
 
 ---
 
+## Operation GhostForge_Ad Fraud & Policy Enforcement Intelligence Dashboard
+* Opening - `Intro`
+* Page 1 - `Executive Fraud Threat & Anomaly Monitoring`
+  ![Dashboard Page 1](data/assets/Dashboard_Page1.png)
+* Page 2 - `Threat Actor Networks & Enforcement Triage`
+  ![Dashboard Page 1](data/assets/Dashboard_Page2.png)
+* Closing - `Outro`
+
+
+---
+
 ## Repository Directory Map
 * `sql/01_ddl_table_optimization_and_cleaning.sql`: BigQuery production table creation with date partitioning, clustering, and automated risk tiering.
 * `sql/02_forensic_network_cluster_analysis.sql`: Multi-CTE forensic query isolating coordinated bad actor subnets bypassing keyword filters.
